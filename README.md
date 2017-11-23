@@ -6,12 +6,12 @@ DLKit : 一站式多功能工具库
     1. 一行代码搞定TableViewCell重用
         在cellForRowAtIndexPath方法中：
       
-        不带xib的UITableViewCell
+        不带xib的UITableViewCell:
         UITableViewCell *cell = GETCELL_NOXIB(UITableViewCell);
         cell.moedl = model;
         return cell;
     
-        带xib的UITableViewCell
+        带xib的UITableViewCell:
         UITableViewCell *cell = GETCELL_HASXIB(UITableViewCell);
         cell.moedl = model;
         return cell;
