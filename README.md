@@ -7,15 +7,14 @@ DLKit : 一站式多功能工具库
     在cellForRowAtIndexPath方法中：
       
     不带xib的UITableViewCell:
-      UITableViewCell *cell = GETCELL_NOXIB(UITableViewCell);
-      cell.moedl = model;
-      return cell;
+    UITableViewCell *cell = GETCELL_NOXIB(UITableViewCell);
+    cell.moedl = model;
+    return cell;
     
     带xib的UITableViewCell:
-      UITableViewCell *cell = GETCELL_HASXIB(UITableViewCell);
-      cell.moedl = model;
-      return cell;
-    
+    UITableViewCell *cell = GETCELL_HASXIB(UITableViewCell);
+    cell.moedl = model;
+    return cell;
 
     2. 便捷UI界面编写
     UIViewNew
@@ -30,6 +29,6 @@ DLKit : 一站式多功能工具库
     .dl_action(self, @selector(aaa))
     .dl_addToView(self.view);
    
-   3. 其他各种方便有趣的功能 等你来发现
+    3. 其他各种方便有趣的功能 等你来发现
    
    
