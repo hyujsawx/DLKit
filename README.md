@@ -29,6 +29,6 @@ DLKit : 一站式多功能工具库
     .dl_action(self, @selector(aaa))
     .dl_addToView(self.view);
    
-    3. 其他各种方便有趣的功能 等你来发现
+    3. 其他各种方便有趣的功能
    
    
